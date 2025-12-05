@@ -11,7 +11,7 @@ let zipLayer = null;
 let highlighted = new Set();
 
 // Load GeoJSON (assuming the file is in the same directory as the HTML)
-fetch('./us_zcta_simplified.geojson')
+fetch('jiyuanfeng-sys.github.io/us-zip-map/us_zcta_simplified.geojson')
 us_zcta_simplified.geojson')
   .then(r => r.json())
   .then(data => {
